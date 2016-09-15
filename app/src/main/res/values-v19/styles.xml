@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimary">#87CEEB</item>
+                <item name="colorPrimaryDark">#87CEEB</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+
+        </style>
+
+        <style name="AppTheme.NoActionBar">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+
+        </style>
+
+        <style name="TranslucentApp" parent="AppTheme">
+                <item name="android:windowTranslucentStatus">true</item>
+        </style>
+
+
+</resources>
